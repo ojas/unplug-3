@@ -33,8 +33,16 @@ Add a Markdown page, list it in the homepage's `toctree`, then rebuild. The buil
 
 The repository also retains its original Read the Docs tutorial in `docs/source/`, with its configuration in `.readthedocs.yaml` and example Python package in `lumache.py`. That template is independent of the hosted site's Markdown in `source/`. Its existing files and build configuration are preserved by this import.
 
-## Hosting
+## GitHub Pages
+
+`.github/workflows/pages.yml` builds the Markdown site with Python 3.12 and publishes `dist/` to GitHub Pages whenever a commit is pushed to `main`. It can also be run manually from the Actions tab. Sphinx warnings fail the build, so an unsuccessful build does not replace the published site.
+
+In repository Settings → Pages, set the build source to **GitHub Actions**. The workflow uses GitHub's built-in token; no deployment secret is needed. A custom domain can be configured there later. The Pages website is public.
+
+The workflow builds `source/`, not the independent Read the Docs tutorial in `docs/source/`.
+
+## Sites hosting
 
 `.openai/hosting.json` preserves this Site's identity and declares `dist` as its static output. Publish the output produced from the exact committed source. No Python server is needed after deployment.
 
-The Site starts private. A custom domain can be attached later.
+The existing ChatGPT-hosted copy keeps its own access settings and deployment workflow. A GitHub push deploys to GitHub Pages; publishing to Sites remains a separate action.
