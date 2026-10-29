@@ -1,9 +1,10 @@
 ---
-permalink: /the-power-of-time-off-3
-featured: true
-ai_assist: false
+description: Notes toward an answer to the question, “What did you do on your sabbatical?”
 ---
 
+# The power of time off
+
+<p class="intro">Notes toward an answer to the question: “What did you do on your sabbatical?”</p>
 
 ## On time to do nothing
 
@@ -64,8 +65,7 @@ Sources:
 
 Notes:
 
-Encountered "SEE ALSO: Carl Sagan on Maxwell". What does it mean? A year off, no that's Issac Newton's marvelous year of 1666, from your `20**_Highlights.md`. [Ask Google. Found answer.](https://share.google/aimode/qqMr3iRt6sWwwYWVw
-). In contact **I CREATED** a decade ago.
+Encountered "SEE ALSO: Carl Sagan on Maxwell". What does it mean? A year off, no that's Issac Newton's marvelous year of 1666, from your `20**_Highlights.md`. [Ask Google. Found answer.](https://share.google/aimode/qqMr3iRt6sWwwYWVw). In contact **I CREATED** a decade ago.
 
 > **You sent a signal into the world in 2016—and picked it up yourself in 2026.**
 > 
@@ -74,4 +74,3 @@ Encountered "SEE ALSO: Carl Sagan on Maxwell". What does it mean? A year off, no
 > And the subject was **the unforeseeable value of following your curiosity.**
 > 
 > The discovery demonstrated the very idea you’d saved. 🤯
-> 

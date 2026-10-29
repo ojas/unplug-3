@@ -24,19 +24,21 @@ html_use_index = False
 html_theme_options = {
     "navigation_with_keys": True,
     "light_css_variables": {
-        "color-brand-primary": "#176b56",
-        "color-brand-content": "#176b56",
-        "color-background-primary": "#ffffff",
-        "color-background-secondary": "#f6f7f5",
-        "color-sidebar-background": "#f6f7f5",
+        "color-brand-primary": "#1a1a1a",
+        "color-brand-content": "#1a1a1a",
+        "color-foreground-primary": "#1a1a1a",
+        "color-foreground-secondary": "#625e57",
+        "color-background-primary": "#f6f4ef",
+        "color-background-secondary": "#eeebe4",
+        "color-sidebar-background": "#eeebe4",
     },
     "dark_css_variables": {
-        "color-brand-primary": "#87d9b9",
-        "color-brand-content": "#87d9b9",
-        "color-background-primary": "#171b19",
-        "color-background-secondary": "#1e2420",
-        "color-sidebar-background": "#1e2420",
+        "color-brand-primary": "#e8e2d8",
+        "color-brand-content": "#e8e2d8",
+        "color-background-primary": "#191816",
+        "color-background-secondary": "#24211e",
+        "color-sidebar-background": "#24211e",
     },
 }
 
-html_meta = {"description": "unplug-3 — a home for notes, guides, and reference."}
+html_meta = {"description": "unplug-3 — field notes from Ojas Patel's sabbatical."}

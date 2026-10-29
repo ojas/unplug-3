@@ -1,29 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");
+
 :root {
-  --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-stack--monospace: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-stack: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-stack--headings: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --font-stack--monospace: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+body {
+  --font-stack: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-stack--headings: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --font-stack--monospace: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-family: var(--font-stack);
+  line-height: 1.55;
+}
+
+.sidebar-brand-text,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: var(--font-stack--headings);
+  font-weight: 600;
 }
 
 .sidebar-brand-text {
-  font-family: var(--font-stack--monospace);
-  font-size: 1.3rem;
-  font-weight: 650;
-  letter-spacing: -0.06em;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
 }
 
 .content h1 {
-  letter-spacing: -0.035em;
+  font-size: clamp(1.55rem, 4vw, 1.85rem);
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+}
+
+.content h2 {
+  font-size: 1.2rem;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+}
+
+.content h3 {
+  font-size: 1.05rem;
 }
 
 .content .intro {
-  font-size: 1.35rem;
-  line-height: 1.55;
+  max-width: 38rem;
+  margin-top: -0.25rem;
+  margin-bottom: 2rem;
   color: var(--color-foreground-secondary);
-  margin-top: -0.5rem;
-  margin-bottom: 1.75rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
 }
 
 .content a {
-  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.content blockquote {
+  border-left-width: 2px;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: reduce) {
