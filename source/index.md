@@ -4,17 +4,14 @@ description: Field notes from Ojas Patel's sabbatical.
 
 # unplug-3
 
-<p class="intro">Field notes from a sabbatical—time set aside for curiosity, craft, maintenance, and work whose value may not be immediately visible.</p>
+Field notes from a sabbatical.
 
-## Begin here
-
-**[The power of time off](power-of-time-off.md)**  
-A working draft on idleness, usefulness, and what becomes possible when there is time to follow curiosity.
+[Begin with the introduction](introduction.md).
 
 ```{toctree}
-:hidden:
-:caption: Field notes
+:caption: The story
 :maxdepth: 2
 
+introduction
 power-of-time-off
 ```
