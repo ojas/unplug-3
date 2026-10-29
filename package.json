@@ -1,0 +1,9 @@
+{
+  "name": "unplug-3",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Markdown documentation site built with Sphinx and Furo.",
+  "scripts": {
+    "build": "python3 scripts/build.py"
+  }
+}
