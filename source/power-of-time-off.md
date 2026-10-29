@@ -57,6 +57,12 @@ Boring stuff
 
 - Bon Fire
 
+Sources:
+
+- <https://cx22.localhost/local/second-brain/OJP%20Vault/Imported/nb/notes/2013-01-04%20IA%20Writer%20Notes.md>
+- /Users/ojas/Projects/second-brain/OJP Vault/HIGHLIGHTS/artifacts/2026-12-13-sabbatical-wins.md
+- AI Assist: https://chatgpt.com/c/6ada5d94-3218-83ea-a6f4-19bbea9d1c7d
+
 Notes:
 
 Encountered "SEE ALSO: Carl Sagan on Maxwell". What does it mean? A year off, no that's Issac Newton's marvelous year of 1666, from your `20**_Highlights.md`. [Ask Google. Found answer.](https://share.google/aimode/qqMr3iRt6sWwwYWVw). In contact **I CREATED** a decade ago.
