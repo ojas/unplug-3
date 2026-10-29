@@ -13,5 +13,6 @@ Field notes from a sabbatical.
 :maxdepth: 2
 
 introduction
+knowing-when
 power-of-time-off
 ```
