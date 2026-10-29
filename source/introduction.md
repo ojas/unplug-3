@@ -12,4 +12,4 @@ This is where I want to tell the story of how I came to adopt that practice—wh
 
 The current sabbatical is the latest chapter. These pages are a record in progress: experiences, experiments, maintenance, and questions I'm still living with.
 
-[Continue: The power of time off](power-of-time-off.md)
+[Continue: Knowing when](knowing-when.md)
