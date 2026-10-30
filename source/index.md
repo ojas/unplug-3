@@ -4,7 +4,7 @@ description: Field notes from Ojas Patel's sabbatical.
 
 # unplug-3
 
-Field notes from a sabbatical.
+<p class="intro">I’ve made a practice of stepping away from an engaging career to examine how I’m living. This is a record of what I questioned, what I tried, what I noticed, and what I’m choosing next.</p>
 
 [Begin with the introduction](introduction.md).
 
