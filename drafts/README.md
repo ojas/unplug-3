@@ -7,6 +7,8 @@ This repository is public: **off the website does not mean private**. Keep priva
 | Draft | State | Next move |
 | --- | --- | --- |
 | [Hero Truck](hero-truck.md) | Author review | Supply the ending; review the edit choices in [its notes](_notes/hero-truck.md). |
+| [Reading list](reading-list.md) | Awaiting data | Import and review a sample of the raw reading data; see [import notes](_notes/reference-lists.md). |
+| [Podcast snips & other listening](podcast-snips.md) | Awaiting data | Import and review a sample of the raw listening/snips data; see [import notes](_notes/reference-lists.md). |
 
 ## Pick up a draft
 
