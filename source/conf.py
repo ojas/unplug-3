@@ -23,6 +23,14 @@ html_copy_source = True
 html_use_index = False
 html_theme_options = {
     "navigation_with_keys": True,
+    "footer_icons": [
+        {
+            "name": "Source on GitHub",
+            "url": "https://github.com/ojas/unplug-3",
+            "html": "Source on GitHub",
+            "class": "",
+        },
+    ],
     "light_css_variables": {
         "color-brand-primary": "#1a1a1a",
         "color-brand-content": "#1a1a1a",
