@@ -22,3 +22,26 @@ This is an impression I want to explore through the experiences behind it. What 
 - What I might bring into my own way of living.
 
 *Working notes — the stories behind the observation are still to come.*
+
+## Yoyu
+
+Having an abundance of space in your heart.
+
+> A word that somehow means: the excess provided when surrounded by a generous abundance.
+>
+> — Craig Mod, as captured in my notes
+
+I experienced this in Japan. November 2025, on a delayed bus en route to Hakone. A field note to return to and write out.
+
+*To add: picture of the bus map.*
+
+A thought to keep alongside this: **Hero = strength for two.**
+
+This connects to [leaving space for grace](getting-better.md#leaving-space-for-grace).
+
+### References
+
+- `[[01 Brain Dump]]` — reference in my personal notes.
+- Rich Roll Podcast: Craig Mod shares his first experience of Yoyu upon arriving in Tokyo. [Play snip — 01:19:09–01:20:36](https://share.snipd.com/snip/5634e7f2-dee2-4f19-bb6a-bd0c75aa723c).
+- [The Japanese Concept of Yoyu: Hungry but Satisfied](https://www.kiwiyamabushi.com/p/the-japanese-concept-of-yoyu-hungry), by [Kiwi Yamabushi](https://www.kiwiyamabushi.com/).
+- [Things Become Other Things](https://craigmod.com/books/things_become_other_things/), by Craig Mod.

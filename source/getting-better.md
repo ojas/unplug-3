@@ -29,6 +29,8 @@ A few personal levels. Still practicing.
 
 Give the day some room. An encounter, a detour, something I wouldn’t have thought to put on the calendar. I’m getting better at leaving space for what might show up.
 
+[Yoyu](japan.md#yoyu). Having an abundance of space in your heart. I experienced this in Japan, on a delayed bus en route to Hakone. A story to return to.
+
 ## Shifting obsession into devotion
 
 Care for the thing. Give myself to the practice. There’s something here about where I place my attention, and what that attention becomes.
