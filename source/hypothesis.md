@@ -28,6 +28,7 @@ Communities and influences to explore as I develop this chapter:
 - **FGP.**
 - **FRV/L.**
 - **Van ~ Alan ~ Tom Sachs.**
+- **Car community.** NSX, LFA, and [@lfa4life](https://www.instagram.com/lfa4life/) on Instagram.
 - **Vegan / animal liberation / ecology.** Informed by PHIL-320 at WKU, Peter Singer, Sagan, and following ideas to their logical conclusions.
 
 ## A pattern to study
