@@ -1,5 +1,5 @@
 ---
-description: Japan, approached as a traveller: a journal entry and questions to return to.
+description: "Japan, approached as a traveller: a journal entry and questions to return to."
 ---
 
 # Japan
