@@ -1,6 +1,6 @@
 # unplug-3
 
-A real Sphinx site with MyST Markdown, the Furo theme, browser search, and light/dark modes. Editable content lives in `source/`; generated HTML lives in `dist/`.
+A real Sphinx site with MyST Markdown, the Furo theme, browser search, and light/dark modes. Published content lives in `source/`, working drafts in `drafts/`, and generated HTML in `dist/`.
 
 ## Build locally
 
@@ -21,13 +21,18 @@ Open http://localhost:8000. On Windows, activate with `.venv\Scripts\activate`.
 ## Edit content
 
 - `source/index.md`: homepage and navigation.
-- `source/start-here.md`: introduction to the starter.
-- `source/writing-pages.md`: authoring guide.
-- `source/examples.md`: working formatting examples.
+- `drafts/README.md`: working-draft index and refinement/publishing workflow.
+- `drafts/`: canonical Markdown for new, unpublished pieces.
 - `source/conf.py`: Sphinx configuration.
 - `source/_static/custom.css`: visual adjustments.
 
 Add a Markdown page, list it in the homepage's `toctree`, then rebuild. The build treats warnings as errors so missing pages and broken internal references are caught before publishing.
+
+## Drafts
+
+Start with [the draft index](drafts/README.md). Edit the canonical Markdown file directly and use Git history for previous versions. Keep editorial notes separate; use issues only when a task or question needs tracking.
+
+The build reads `source/` and publishes `dist/`, so files in `drafts/` stay off the website. They remain visible in this public GitHub repository. Publish a new piece by moving the same file into `source/` and adding it to a `toctree` in a reviewed PR. For an already published page, work on its existing file on a branch until ready to publish.
 
 ## Existing Read the Docs template
 
