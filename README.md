@@ -1,53 +1,33 @@
 # unplug-3
 
-A real Sphinx site with MyST Markdown, the Furo theme, browser search, and light/dark modes. Published content lives in `source/`, working drafts in `drafts/`, and generated HTML in `dist/`.
+I’ve made a practice of stepping away from an engaging career to examine how I’m living. This is a record of what I questioned, what I tried, what I noticed, and what I’m choosing next.
 
-## Build locally
+[Read the site →](https://ojas.github.io/unplug-3/)
 
-Requires Python 3.12 or later.
+## In this repo
+
+- [Published pages](source/) — the story so far.
+- [Working drafts](drafts/README.md) — unfinished pieces and their next moves.
+- [Artifacts](artifacts/README.md) — source material, including earlier sabbaticals.
+- [The way](WAY.md) — purpose and editorial orientation.
+
+Refine the actual Markdown files through PRs. Keep notes separate from the prose. Publish a draft by moving it into `source/` and adding it to the navigation.
+
+## How it works
+
+Sphinx builds MyST Markdown into static HTML. Furo provides the layout, navigation, search, and appearance controls.
+
+GitHub Actions builds `source/` into `dist/` and deploys pushes to `main` to GitHub Pages. Warnings fail the build. Drafts and artifacts stay outside the website build; they remain visible in this public repo.
+
+### Local build
+
+Python 3.12+.
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python3 scripts/build.py
-python3 -m http.server 8000 --directory dist
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/build.py
+.venv/bin/python -m http.server 8000 --directory dist
 ```
 
-Open http://localhost:8000. On Windows, activate with `.venv\Scripts\activate`.
-
-`make html` and `npm run build` invoke the same Python build script. Node is only a wrapper used by the Sites build helper; Sphinx itself runs in Python.
-
-## Edit content
-
-- `source/index.md`: homepage and navigation.
-- `drafts/README.md`: working-draft index and refinement/publishing workflow.
-- `drafts/`: canonical Markdown for new, unpublished pieces.
-- `source/conf.py`: Sphinx configuration.
-- `source/_static/custom.css`: visual adjustments.
-
-Add a Markdown page, list it in the homepage's `toctree`, then rebuild. The build treats warnings as errors so missing pages and broken internal references are caught before publishing.
-
-## Drafts
-
-Start with [the draft index](drafts/README.md). Edit the canonical Markdown file directly and use Git history for previous versions. Keep editorial notes separate; use issues only when a task or question needs tracking.
-
-The build reads `source/` and publishes `dist/`, so files in `drafts/` stay off the website. They remain visible in this public GitHub repository. Publish a new piece by moving the same file into `source/` and adding it to a `toctree` in a reviewed PR. For an already published page, work on its existing file on a branch until ready to publish.
-
-## Existing Read the Docs template
-
-The repository also retains its original Read the Docs tutorial in `docs/source/`, with its configuration in `.readthedocs.yaml` and example Python package in `lumache.py`. That template is independent of the hosted site's Markdown in `source/`. Its existing files and build configuration are preserved by this import.
-
-## GitHub Pages
-
-`.github/workflows/pages.yml` builds the Markdown site with Python 3.12 and publishes `dist/` to GitHub Pages whenever a commit is pushed to `main`. It can also be run manually from the Actions tab. Sphinx warnings fail the build, so an unsuccessful build does not replace the published site.
-
-In repository Settings → Pages, set the build source to **GitHub Actions**. The workflow uses GitHub's built-in token; no deployment secret is needed. A custom domain can be configured there later. The Pages website is public.
-
-The workflow builds `source/`, not the independent Read the Docs tutorial in `docs/source/`.
-
-## Sites hosting
-
-`.openai/hosting.json` preserves this Site's identity and declares `dist` as its static output. Publish the output produced from the exact committed source. No Python server is needed after deployment.
-
-The existing ChatGPT-hosted copy keeps its own access settings and deployment workflow. A GitHub push deploys to GitHub Pages; publishing to Sites remains a separate action.
+The older Read the Docs example under `docs/` is separate from this site.
