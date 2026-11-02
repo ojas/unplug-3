@@ -16,6 +16,7 @@ html_title = "unplug-3"
 html_short_title = "unplug-3"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
+html_js_files = ["sony-vu.js"]
 html_favicon = "_static/favicon.svg"
 html_show_sourcelink = True
 html_show_sphinx = True
