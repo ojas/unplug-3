@@ -59,6 +59,11 @@ The new levels are still unscored. A dash leaves room to come back to them.
       "id": "daydreaming",
       "label": "Daydreaming",
       "value": null
+    },
+    {
+      "id": "right-where-i-want-to-be",
+      "label": "Right where I want to be",
+      "value": null
     }
   ]
 }'>
@@ -66,6 +71,7 @@ The new levels are still unscored. A dash leaves room to come back to them.
   <li>Leaving space for grace: not yet scored</li>
   <li>Shifting obsession into devotion: not yet scored</li>
   <li>Daydreaming: not yet scored</li>
+  <li>Right where I want to be: not yet scored</li>
 </ul>
 </sony-vu-meters>
 ```
@@ -114,6 +120,12 @@ Give the day some room. An encounter, a detour, something I wouldn’t have thou
 Analog afternoons. A notebook and a pen. Journaling, writing pages, letting the mind wander.
 
 *The Artist’s Way* belongs here too. Time to follow a thought and see where it goes.
+
+### Right where I want to be
+
+Getting better at accessing that feeling: no place I’d rather be.
+
+I’m right where I wanna be, my friend.
 
 ### Shifting obsession into devotion
 
