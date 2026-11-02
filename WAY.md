@@ -50,6 +50,16 @@ This is an editorial guide, not a requirement to create empty sections or rename
 
 Make focused, reviewable pull requests. Read the current source and relevant PR comments before editing. Preserve unrelated changes and original source references.
 
+### Drafts and refinement
+
+Use checked-in Markdown as the canonical draft. Follow [drafts/README.md](drafts/README.md) and its small index to resume work.
+
+New unpublished pieces live in `drafts/`, outside Sphinx’s `source/`. Refine the same file through focused commits or PRs; update its next move when useful. Keep source comparisons and editorial notes separate from the readable prose. Use issues for tasks and questions when helpful, not as a competing copy of the draft.
+
+Publish by moving the same file into `source/` and adding it to navigation in a publication PR. For an already published page, edit its existing file on a branch until ready to publish. A page under `source/` is not hidden simply because it is absent from the navigation or labeled as a draft.
+
+The repository is public. Draft storage prevents website publication, not GitHub visibility. Keep private source material in the private collection unless approved for the repository.
+
 Use the existing Sphinx/MyST and Furo setup. Retain navigation, search, responsive layout, and appearance controls when editing visual styles. Validate changes in proportion to their risk and report what was actually checked.
 
 These orientation files are internal repository guidance, not site content.
