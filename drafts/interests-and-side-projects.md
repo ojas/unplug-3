@@ -12,11 +12,13 @@ Playing, listening, experimenting. [Music studio notes](https://cx22.ns-x.net/cy
 
 ### The joy of biking
 
-I like the idea of having a physical activity I can keep doing through old age. Tennis and golf get mentioned. Biking works for me. Just for fun.
+I need a physical activity I can keep doing through old age. Tennis and golf get mentioned. Biking works for me. Just for fun.
 
 My version: away from traffic, no helmet, cruising through the neighborhood.
 
-Sometimes I push myself to full-throttle, surging for a few hundred meters. That’s fun too. Even when I’m tired at first, I still have fun once I’m riding.
+Getting around lap traffic, full throttle out of the corkscrew, pushing flat out, surging for a few hundred meters. The environment invites full-throttle.
+
+Even when I’m tired at first, I still have fun once I’m riding.
 
 An instant mood lift. The passing scenery—the optic flow—feels calming.
 
