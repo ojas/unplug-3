@@ -6,6 +6,8 @@ This repository is public: **off the website does not mean private**. Keep priva
 
 | Draft | State | Next move |
 | --- | --- | --- |
+| [Projects created](projects-created.md) | Collecting | Review descriptions, dates, statuses, and overlaps; see [inventory notes](_notes/projects-created.md). |
+| [Discovery](discovery.md) | Author review | Review the selected first-person passages and placement; see [notes](_notes/discovery.md). |
 | [Hero Truck](hero-truck.md) | Author review | Supply the ending; review the edit choices in [its notes](_notes/hero-truck.md). |
 | [Reading list](reading-list.md) | Awaiting data | Import and review a sample of the raw reading data; see [import notes](_notes/reference-lists.md). |
 | [Podcast snips & other listening](podcast-snips.md) | Awaiting data | Import and review a sample of the raw listening/snips data; see [import notes](_notes/reference-lists.md). |
