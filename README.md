@@ -1,5 +1,7 @@
 # unplug-3
 
+For collaborators: [working instructions](AGENTS.md) and [project orientation](WAY.md).
+
 I’ve made a practice of stepping away from an engaging career to examine how I’m living. This is a record of what I questioned, what I tried, what I noticed, and what I’m choosing next.
 
 [Read the site →](https://ojas.github.io/unplug-3/)
