@@ -73,3 +73,20 @@ These orientation files are internal repository guidance, not site content.
 - Treating activity, money circulated, or output volume as proven impact.
 - Turning rough notes into confident claims or invented personal history.
 - Premature taxonomy that creates more structure than the material needs.
+
+## Project checkpoint — November 13, 2026
+
+Canonical repository: [ojas/unplug-3](https://github.com/ojas/unplug-3), default branch `main`. Inspected commit: [41640a3](https://github.com/ojas/unplug-3/commit/41640a340e3b7f61af88d92d795a89afccafe8a5). GitHub Actions builds the top-level `source/` with Sphinx/MyST and Furo and publishes to [GitHub Pages](https://ojas.github.io/unplug-3/). The older ChatGPT Site is a reference, not the production publishing path. The inherited example under `docs/source/` is separate.
+
+Use [README.md](README.md) for setup, [drafts/README.md](drafts/README.md) for canonical unpublished pieces and their next moves, [artifacts/README.md](artifacts/README.md) for source material, and [issues](https://github.com/ojas/unplug-3/issues)/[PRs](https://github.com/ojas/unplug-3/pulls) for task state.
+
+At this review:
+
+- [PR #27](https://github.com/ojas/unplug-3/pull/27), Following your curiosity, remains open. Its branch contains the draft; the author still needs to supply what resonated and a personal example.
+- [PR #21](https://github.com/ojas/unplug-3/pull/21), Projects created and Discovery, remains open. The inventory is working evidence; labels such as DONE are not verified delivery status. Review descriptions and placement before publication.
+- Interests & side projects, including the biking seed, is merged into `drafts/` via [PR #28](https://github.com/ojas/unplug-3/pull/28). It is not thereby published.
+- [Issue #13](https://github.com/ojas/unplug-3/issues/13) describes a manually invoked editorial agent. It remains planned work; the issue is not evidence that the workflow exists.
+
+These observations are dated. Re-read the current draft index, selected PR, and review comments before resuming. A useful next task is author review of one existing piece, with its outcome and next move recorded in that piece's existing location. Do not impose a new priority order or duplicate its prose in this orientation.
+
+At milestones, update durable decisions here and specific draft state in the existing index. Leave detailed validation and unfinished implementation in the task's issue/PR. Suggested labels such as “hedonic engineering” remain working ideas until Ojas adopts them.
